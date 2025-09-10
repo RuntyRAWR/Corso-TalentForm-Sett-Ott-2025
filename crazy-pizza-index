@@ -26,7 +26,12 @@
     <!-- corpo del sito, tutto quello che viene visualizzato a schermo -->
     <body>
         <!-- div si usa per definire una sezione, o un prodotto -->
-        <div id="logo-menu"></div>
+        <!-- scorciatoia per creare i div con un id, #nomeid -->
+        <div id="logo-menu">
+            <div id="logo-menu-content">
+                <img src="img/logo.png" alt="Logo Crazy Pizza">
+            </div>
+        </div>
         <div id="slide"></div>
         <div id="abbinamenti"></div>
         <div id="menu-pizza"></div>
