@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+/* resetta la cache del browser */
+* {
+    margin: 0;
+}
+
 div {
     height: 80px;
     background-color: #f69e31;
 }
-
