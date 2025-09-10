@@ -26,16 +26,16 @@
     <!-- corpo del sito, tutto quello che viene visualizzato a schermo -->
     <body>
         <!-- div si usa per definire una sezione, o un prodotto -->
-        <div>
-            contenuto
-        </div>
-
-        <div>
-            contenuto
-        </div>
-        
-        <div>
-            contenuto
-        </div>
+        <div id="logo-menu"></div>
+        <div id="slide"></div>
+        <div id="abbinamenti"></div>
+        <div id="menu-pizza"></div>
+        <div id="pizzeria"></div>
+        <div id="ingredienti"></div>
+        <div id="orari-apertura"></div>
+        <div id="form-contatti"></div>
+        <div id="mappa"></div>
+        <div id="indirizzo"></div>
+        <div id="informative"></div>
     </body>
 </html>
