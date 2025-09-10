@@ -28,8 +28,24 @@
         <!-- div si usa per definire una sezione, o un prodotto -->
         <!-- scorciatoia per creare i div con un id, #nomeid -->
         <div id="logo-menu">
+            <!-- si possono inserire dei div dentro altri div concatenati -->
             <div id="logo-menu-content">
-                <img src="img/logo.png" alt="Logo Crazy Pizza">
+                <!-- per inserire delle immagini, width e height sono per indicare al sito l'altezza dell'immagine -->
+                <img src="img/logo.png" alt="Logo Crazy Pizza" width="224" height="80">
+                <!-- serve per inserire una collegamento ad un altra pagina html (in questo caso) -->
+                <a href="index.html" title="Visualizza la homepage">Home</a>
+                <!-- ancora di riferimento ad un altro file html -->
+                <a href="chi-siamo.html" title="Visualizza la homepage">Chi siamo</a>
+
+                <!-- per il collegamento ad una sezione div, si mette #nomediv -->
+                <a href="#abbinamenti">Abbinamenti</a>
+                <a href="#pizzeria">La pizzeria</a>
+                <a href="#ingredienti">Ingredienti</a>
+                <a href="#form-contatti">Contatti</a>
+                
+                <!-- ancora di riferimento ad un altro file html -->
+                <a href="login.html" title="Visualizza la homepage">Login</a>
+
             </div>
         </div>
         <div id="slide"></div>
