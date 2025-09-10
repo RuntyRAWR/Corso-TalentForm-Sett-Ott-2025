@@ -9,6 +9,13 @@
     height: 80px;
     background-color: #f69e31;
 }
+/* logo-menu-content è dipendente da logo-menu che è il div padre */
+#logo-menu-content {
+    width: 1125px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: green;
+}
 
 #slide {
     height: 730px;
