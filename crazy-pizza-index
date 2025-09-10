@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- tipo del documento -> HTML -->
+<html lang="it"> <!-- apertura codice html, lang="it" è un attributo del tag html -->
+    <!-- parte del sito "nascosta" non visibile a schermo -->
+    <head>
+        <!-- contenuto del head -->
+        <!-- standard per i caratteri -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crazy Pizza - La miglior pizzeria di Porto Cervo</title>
+        <!-- meta tag, nome del tag, in questo caso descrizione e il contenuto -->
+        <meta name="description" content="La pizzeria Crazy vi invita a provare le varie specialità di Porto Cervo.">
+        <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!-- meta per l'autore -->
+        <meta name="author" content="Beatrice">
+        <!-- meta per il copyright -->
+        <meta name="copyright" content="copyright 2025 Cliente Y">
+        <!-- si usava una volta per farsi trovare prima ma ne abusavano -->
+        <!-- <meta name="keyword" content="pizza, porto+cervo, ..."> -->
+
+        
+
+    </head>
+
+    <!-- corpo del sito, tutto quello che viene visualizzato a schermo -->
+    <body>
+        <!--  -->
+        <div>
+
+        </div>
+    </body>
+</html>
