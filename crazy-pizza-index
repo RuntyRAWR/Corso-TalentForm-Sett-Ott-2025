@@ -1,5 +1,6 @@
 <!DOCTYPE html> <!-- tipo del documento -> HTML -->
 <html lang="it"> <!-- apertura codice html, lang="it" è un attributo del tag html -->
+    <!-- QUESTO E' COME SI INSERISCE UN COMMENTO NEL CODICE, NON SI VEDE SUL SITO, E' PERSONALE PER CHI SVILUPPA -->
     <!-- parte del sito "nascosta" non visibile a schermo -->
     <head>
         <!-- contenuto del head -->
