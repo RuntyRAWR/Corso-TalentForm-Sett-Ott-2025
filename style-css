@@ -4,7 +4,7 @@
 * {
     margin: 0;
 }
-
+/* # fa riferimento al ID del DIV */
 #logo-menu {
     height: 80px;
     background-color: #f69e31;
@@ -14,7 +14,25 @@
     width: 1125px;
     height: 100%;
     margin: 0 auto;
-    background-color: green;
+    /* background-color: green; */
+    /* allinea gli elementi all'interno di questo div */
+    display: flex;
+    /* allinea gli elementi al centro */
+    align-items: center;
+    /* sistema lo spazio tra gli elementi */
+    justify-content: space-between;
+}
+
+#logo-menu-content a {
+    text-decoration: none;
+}
+
+/* . fa riferimento al CLASS dell'ancora a */
+.link-menu {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Lexend", "Source Sans Pro",  Helvetica, Arial, sans-serif;
+    text-decoration: none;
 }
 
 #slide {
