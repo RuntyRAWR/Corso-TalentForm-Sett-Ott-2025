@@ -5,7 +5,57 @@
     margin: 0;
 }
 
-div {
+#logo-menu {
     height: 80px;
+    background-color: #f69e31;
+}
+
+#slide {
+    height: 730px;
+    background-color: #bebebe;
+}
+
+#abbinamenti {
+    height: 730px;
+    background-color: #ffffff;
+}
+
+#menu-pizza {
+    height: 750px;
+    background-color: #b8e063;
+}
+
+#pizzeria {
+    height: 735px;
+    background-color: #f3f6f8;
+}
+
+#ingredienti {
+    height: 735px;
+    background-color: #f69e31;
+}
+
+#orari-apertura {
+    height: 735px;
+    background-color: #3ab34a;
+}
+
+#form-contatti {
+    height: 800px;
+    background-color: #f3f6f8;
+}
+
+#mappa {
+    height: 400px;
+    background-color: #b8e063;
+}
+
+#indirizzo {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+#informative {
+    height: 50px;
     background-color: #f69e31;
 }
