@@ -10,7 +10,9 @@
         <title>Crazy Pizza - La miglior pizzeria di Porto Cervo</title>
         <!-- meta tag, nome del tag, in questo caso descrizione e il contenuto -->
         <meta name="description" content="La pizzeria Crazy vi invita a provare le varie specialità di Porto Cervo.">
+        <!-- inserimento icona del sito -->
         <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+        <!-- collegamento pagina css -->
         <link rel="stylesheet" href="css/styles.css">
 
         <!-- meta per l'autore -->
@@ -19,16 +21,21 @@
         <meta name="copyright" content="copyright 2025 Cliente Y">
         <!-- si usava una volta per farsi trovare prima ma ne abusavano -->
         <!-- <meta name="keyword" content="pizza, porto+cervo, ..."> -->
-
-        
-
     </head>
 
     <!-- corpo del sito, tutto quello che viene visualizzato a schermo -->
     <body>
-        <!--  -->
+        <!-- div si usa per definire una sezione, o un prodotto -->
         <div>
+            contenuto
+        </div>
 
+        <div>
+            contenuto
+        </div>
+        
+        <div>
+            contenuto
         </div>
     </body>
 </html>
