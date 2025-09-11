@@ -49,8 +49,24 @@
 
             </div>
         </div>
-        <!-- ogni ID è unicovo per ogni DIV -->
-        <div id="slide"></div>
+        <!-- ogni ID è unicovo per ogni TAG -->
+        <div id="slide">
+            <!-- h1 e h2 sono utilizzati come titolo e sottotitolo, 
+             si usano una sola volta in una pagina -->
+            <h1>
+                Lorem ipsum, dolor sit amet consectetur adipisicing.
+            </h1>
+            <p id="slide-txt">
+                <!-- strong (grassetto) aiuta a trovare le parole nei motori di ricerca, 
+                 em serve allo stesso modo ma è corsivo.
+
+                 IMPORTANTE! NON FARE MAI STRONG + EM 
+                 SI FA SUI FOGLI DI STILE NON NEL HTML -->
+                <strong>Lorem ipsum dolor,</strong> sit amet <em>consectetur</em> adipisicing <br> <!-- il tag BR si usa per andare a capo -->
+                <!-- il tag SPAN si utilizza per definire lo style per una parte di testo -->
+                Praesentium eos aspernatur <span class="slide-bold">ratione omnis consectetur</span> blanditiis ab ullam exercitationem ipsum possimus?
+            </p>
+        </div>
         <div id="abbinamenti"></div>
         <div id="menu-pizza"></div>
         <div id="pizzeria"></div>
