@@ -49,12 +49,14 @@
 
             </div>
         </div>
+
         <!-- ogni ID è unicovo per ogni TAG -->
         <div id="slide">
             <!-- h1 e h2 sono utilizzati come titolo e sottotitolo, 
              si usano una sola volta in una pagina -->
             <h1>
-                Lorem ipsum, dolor sit amet consectetur adipisicing.
+                Lorem ipsum, dolor sit amet <br>
+                consectetur adipisicing.
             </h1>
             <p id="slide-txt">
                 <!-- strong (grassetto) aiuta a trovare le parole nei motori di ricerca, 
@@ -64,11 +66,42 @@
                  SI FA SUI FOGLI DI STILE NON NEL HTML -->
                 <strong>Lorem ipsum dolor,</strong> sit amet <em>consectetur</em> adipisicing <br> <!-- il tag BR si usa per andare a capo -->
                 <!-- il tag SPAN si utilizza per definire lo style per una parte di testo -->
-                Praesentium eos aspernatur <span class="slide-bold">ratione omnis consectetur</span> blanditiis ab ullam exercitationem ipsum possimus?
+                Praesentium eos aspernatur <span class="slide-bold">ratione omnis consectetur</span> <br>
+                blanditiis ab ullam exercitationem ipsum possimus?
             </p>
         </div>
-        <div id="abbinamenti"></div>
-        <div id="menu-pizza"></div>
+
+        <div id="abbinamenti">
+            <h2>
+                Lorem ipsum dolor sit amet.
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Porro dolorem fuga maxime, nostrum adipisci expedita?
+            </p>
+            <!-- il # si mette per non lasciarlo vuoto finchè non si sceglie cosa inserire , 
+             perchè potrebbe creare dei problemi -->
+            <a href="#" id="pulsante-abbinamenti" title="Clicca per scoprire gli abbinamenti">
+                Guarda i nostri abbinamenti
+            </a>
+        </div>
+
+        <div id="menu-pizza">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p id="menu-pizze-txt">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Praesentium eligendi pariatur aspernatur a adipisci optio <br>
+                saepe magnam accusantium autem totam?
+            </p>
+            <div id="col-sinistra">
+                <img src="img/ingredienti-pizze.jpg" alt="verdure ingredienti pizze" width="530" height="533">
+            </div>
+
+            <div id="col-destra">
+
+            </div>
+        </div>
+
         <div id="pizzeria"></div>
         <div id="ingredienti"></div>
         <div id="orari-apertura"></div>
