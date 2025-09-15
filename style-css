@@ -1,10 +1,16 @@
 @charset "UTF-8";
 
+/* CONSIGLIO
+Non mettere mai l'altezze alle varie sezioni, è meglio che si ADATTI 
+ai vari elementi che noi andremo ad inserire all'interno del codice */
+
 /* resetta la cache del browser */
 * {
     margin: 0;
+    /* box sizing serve per sistemare i conflitti tra i margini e i padding */
+    box-sizing: border-box;
 }
-/* # fa riferimento al ID del DIV */
+/* # fa riferimento al ID del TAG */
 #logo-menu {
     height: 80px;
     background-color: #f69e31;
@@ -35,19 +41,124 @@
     text-decoration: none;
 }
 
+/* BOX MODEL: 
+padding si usa per distanziare il contenuto all'interno
+margin si usa per distanziare il contenuto dalla parte esterna di esso
+border crea un bordo al contenuto */
 #slide {
     height: 730px;
     background-color: #bebebe;
+    background-image: url(../img/slider-pizza.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px; 
+    /* se usiamo il padding top nel div principale il box sizing sistema il problema dell'aumento di px */
+}
+
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Lexend", "Source Sans Pro",  Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    /* padding-top: 250px; */
+    margin-bottom: 40px;
+}
+
+#slide-txt {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Lexend", "Source Sans Pro",  Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.slide-bold {
+    font-style: oblique -15deg;
+    font-size: 25px;
+    color: gold;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 #abbinamenti {
     height: 730px;
     background-color: #ffffff;
+    background-image: url(../img/meta-pizza.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* si può fare per selezionare un elemento all'interno di un altro */
+#abbinamenti h2 {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 42px;
+    font-family: "Lexend", "Source Sans Pro",  Helvetica, Arial, sans-serif;
+    font-weight: 300; /* non prevede il px come proprietà */
+}
+
+#abbinamenti p {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Lexend", "Source Sans Pro",  Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+#pulsante-abbinamenti {
+    color: #39b449;
+    text-transform: uppercase; /* rende il testo in caps */
+    text-decoration: none;
+    border: 2px solid #39b449;
+    display: block;
+    width: 275px;
+    height: 50px;
+    margin: 35px auto 0;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Lexend", "Source Sans Pro",  Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+#pulsante-abbinamenti:hover {
+    background-color: #39b449;
+    color: #ffffff;
+}
+
+#pulsante-abbinamenti:active {
+    background-color: #f69e31;
+    color: #ffffff;
+    border: 3px solid #f69e31;
 }
 
 #menu-pizza {
-    height: 750px;
+    height: 730px;
     background-color: #b8e063;
+}
+
+#menu-pizza h2, #menu-pizze-txt {
+    text-align: center;
+    font-family: "Lexend", "Source Sans Pro",  Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+#menu-pizza h2 {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+#menu-pizza-txt {
+    margin: 35px 0; 
+    font-size: 50px;
+}
+
+#col-destra {
+    width: 360px;
+    height: 533px;
+    background-color: #000000;
 }
 
 #pizzeria {
