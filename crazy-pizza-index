@@ -1,3 +1,4 @@
+
 <!DOCTYPE html> <!-- tipo del documento -> HTML -->
 <html lang="it"> <!-- apertura codice html, lang="it" è un attributo del tag html -->
     <!-- QUESTO E' COME SI INSERISCE UN COMMENTO NEL CODICE, NON SI VEDE SUL SITO, E' PERSONALE PER CHI SVILUPPA -->
@@ -93,16 +94,45 @@
                 Praesentium eligendi pariatur aspernatur a adipisci optio <br>
                 saepe magnam accusantium autem totam?
             </p>
-            <div id="col-sinistra">
+
+            <div>
                 <img src="img/ingredienti-pizze.jpg" alt="verdure ingredienti pizze" width="530" height="533">
             </div>
 
             <div id="col-destra">
+                <p>
+                    <span>Lorem, ipsum.</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
 
+                <p>
+                    <span>Lorem, ipsum.</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+
+                <p>
+                    <span>Lorem, ipsum.</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <!-- il tag TARGET si usa per far aprire il documento in questo caso il pdf
+                 in una scheda vuota, per evitare che gli si chiuda il sito -->
+                <a href="pdf/Sample-Pizza-Menu-1.pdf" target="_blank" title="Scarica il Menù delle nostre pizze">Scarica il Menù</a>
             </div>
         </div>
 
-        <div id="pizzeria"></div>
+        <div id="pizzeria">
+            <h2>la pizzeria</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, voluptates.</p>
+            <div>
+                <img src="" alt="">
+                <p>
+                    <span>Bibite:</span>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+
         <div id="ingredienti"></div>
         <div id="orari-apertura"></div>
         <div id="form-contatti"></div>
